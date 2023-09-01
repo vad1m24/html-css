@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FAFAFA;
+    color: #000;
+    text-decoration: none;
+    font-family: Gilroy-SemiBold, sans-serif;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.content_item {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 17px;
+    padding: 40px 31px 25px 29px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.icons {
+    padding-bottom: 8px;
+}
+
+.subtitle {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text_more {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text_item {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.big_item {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 92px;
+    margin-bottom: 100px;
+}
+
+.heading {
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 25px;
+}
+
+.subtitle_heading {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.big_content_item {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    padding-bottom: 50px;
+}
+
+.navigation_button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.navigation_button.button {
+    border-radius: 50px;
+    background: #F25822;
+}
