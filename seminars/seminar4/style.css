@@ -14,8 +14,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.top {}
-
 .header {
     height: 100px;
     display: flex;
@@ -32,8 +30,6 @@ body {
     justify-content: center;
     gap: 128px;
 }
-
-.top_content {}
 
 .h4_class {
     margin-bottom: 10px;

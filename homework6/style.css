@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #FFF;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.header {
+    height: 75px;
+    background-color: #222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 859px;
+}
+
+.logo {
+    
+    gap: 41px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.hamburger_button {
+    display: flex;
+    align-items: center;
+}
+
+.cover_sheet {
+    background-color: #F1E4E6;
+    height: 764px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 63px;
+}
+
+.cover_sheet.cover_man {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.title_group {
+    gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 93px;
+}
+
+.offers {
+    margin-top: 65px;
+    margin-bottom: 96px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.offer1 {
+    background: linear-gradient(rgba(48, 29, 29, 0.622), rgba(33, 22, 22, 0.70)), url(img/offer1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+
+.offer2 {
+    background: linear-gradient(rgba(48, 29, 29, 0.622), rgba(33, 22, 22, 0.70)), url(img/offer2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+
+.offer3 {
+    background: linear-gradient(rgba(48, 29, 29, 0.622), rgba(33, 22, 22, 0.70)), url(img/offer3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+
+.offer_long_string {
+    background: linear-gradient(rgba(48, 29, 29, 0.622), rgba(33, 22, 22, 0.70)), url(img/offer4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.heading_title {
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding-bottom: 17px;
+}
+
+.subtitle {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.excerpt {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px 16px;
+}
+
+.product_name {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product2_img {
+    background: #F7E4E2;
+    padding: 9px 110px 11px 108px;
+}
+
+.navigation_button {
+    padding-top: 18px;
+    grid-area: 4 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 212px;
+    height: 48px;
+}
