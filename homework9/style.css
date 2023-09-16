@@ -480,8 +480,30 @@ body {
 .personality {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+.text_face {
+    width: 359.449px;
+    height: 99px;
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_face_focus {
+    color: #222224;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .advertisement_text {
@@ -526,6 +548,27 @@ body {
 
 input:focus {
     outline: none;
+}
+
+.subscribe {
+    width: 557px;
+    height: 61px;
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+}
+
+.subscribe_reason {
+    color: #222224;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
 }
 
 .subscribe_button {
@@ -748,6 +791,27 @@ input:focus {
         gap: 27px;
     }
 
+    .subscribe {
+        width: 557px;
+        height: 61px;
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 162%;
+    }
+
+    .subscribe_reason {
+        color: #222224;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 162%;
+    }
+
     .TM {
         padding-left: 32px;
     }
@@ -938,7 +1002,24 @@ input:focus {
     }
 
     .text_face {
-        width: 271px;
+        width: 343px;
+        height: 73px;
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .text_face_focus {
+        color: #222224;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
     }
 
     .advertisement_text {
@@ -951,12 +1032,34 @@ input:focus {
 
     .subscribe {
         width: 271px;
+        height: 54px;
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 153.2%;
     }
+
+    .subscribe_reason {
+        color: #222224;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 153.2%;
+    }
+
 
     .user_information {
         display: flex;
         width: 341px;
         height: 47px;
+    }
+
+    .input_email {
+        width: 245px;
     }
 
     .subscribe_button {
